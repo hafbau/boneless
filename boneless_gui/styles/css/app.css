@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box; }
+
+.app-header {
+  background-color: blue;
+  flex: none;
+  height: 100px;
+  position: fixed; }
+
+* {
+  box-sizing: border-box;
+  margin: 0; }

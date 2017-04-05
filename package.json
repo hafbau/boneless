@@ -1,0 +1,29 @@
+{
+  "name": "autoHappli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^2.1.5",
+    "babel-cli": "^6.24.0",
+    "babel-preset-latest": "^6.24.0",
+    "chromedriver": "^2.27.2",
+    "email-existence": "^0.1.5",
+    "email-verify": "^0.1.1",
+    "nodemailer": "^3.0.2",
+    "node-fetch": "^1.6.3",
+    "selenium-webdriver": "^3.0.1",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.2",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "sass-watch": "node-sass -w boneless_gui/styles/scss/app.scss -o boneless_gui/styles/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
