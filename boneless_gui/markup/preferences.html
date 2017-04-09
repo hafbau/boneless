@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Boneless | Preferences</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../styles/css/app.css">
+</head>
+<body>
+  <header id="app-header" role="app-header">
+    <nav>
+      <a href="">
+        <div class="mobile-nav">
+          <hr/>
+          <hr/>
+          <hr/>
+        </div>
+      </a>
+      
+    </nav>
+    <div class="brand-logo">
+      Boneless
+    </div>
+    <div class="access-control">
+      
+    </div>
+  </header>
+
+  <main id="app-body">
+    <aside id="side-nav" role="navigation">
+      <ul class="nav-group">
+        <li>
+          <a href="preferences.html">
+            <div class="nav-link">
+              <i class="fa fa-cogs" aria-hidden="true"></i>
+              Preferences
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="reporting.html">
+            <div class="nav-link">
+              <i class="fa fa-pie-chart" aria-hidden="true"></i>
+              Reporting
+            </div>
+          </a>
+        </li>
+      </ul>
+    </aside>
+
+    <section id="content-area" role="content-area">
+      <header class="content-header">
+        Preferences
+      </header>
+
+      <section class="content-body">
+        <form data-noreset>
+          <section class="form-group">
+            <div class="line-group">
+              <label for="first-name" class="sr-only">
+                First Name
+              </label>
+              <input type="text" name="first-name" id="first-name" placeholder="First Name" value="">
+              
+              <div class="spacer"></div>
+
+              <label for="last-name" class="sr-only">
+                Last Name
+              </label>
+              <input type="text" name="last-name" id="last-name" placeholder="Last Name" value="">
+            </div>
+
+            <div class="line-group">
+              <label for="email" class="sr-only">
+                Email
+              </label>
+              <input type="email" name="email" id="email" placeholder="Email" value="">
+
+              <div class="spacer"></div>
+
+              <label for="phone" class="sr-only">
+                Phone with country code
+              </label>
+              <input type="tel" name="phone" id="phone" placeholder="Phone" value="">
+            </div>
+          </section>
+
+          <section class="form-group">
+            <div class="line-group">
+              <label for="job-titles" class="sr-only">
+                Preferred Job Titles
+              </label>
+              <input type="text" name="job-titles" id="job-titles" placeholder="Preferred Job Titles" value="" />
+            </div>
+
+            <div class="line-group">
+              <label for="country" class="sr-only">
+                Country
+              </label>
+              <input type="country" name="country" id="country" placeholder="Country" value="" />
+
+              <div class="spacer"></div>
+
+              <label for="city" class="sr-only">
+                City
+              </label>
+              <input type="text" name="city" id="city" placeholder="City" value="" />
+            </div>
+          </section>
+
+          <section class="form-group">
+            <div class="line-group">
+              <label for="report-frequency" class="sr-only">
+                Reporting Frequency
+              </label>
+              <input type="text" name="report-frequency" id="report-frequency" placeholder="Reporting Frequency" value="" />
+            </div>
+          </section>
+
+          <section class="form-group">
+            <div class="line-group">
+              <button class="btn-save">Save Preferences</button>
+            </div>
+          </section>
+        </form>
+      </section>
+
+    </section>
+  </main>
+
+  <footer id="app-footer">
+    
+  </footer>
+</body>
+</html>

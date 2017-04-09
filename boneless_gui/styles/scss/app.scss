@@ -1,6 +1,40 @@
-@import "./layout";
+ /* Sizes */
+$one-rem: 18px;
+$one-space: 40px;
 
+// Colors
+$applied-color: #5f9ea0;
+$black-color: #333333;
+$brand-color: #5f9ea0;
+$failed-color: tomato;
+$highlight-dark: #333333;
+$line-color: #bbbbbb;
+$pending-color: #ff9900;
+$white-color: #ffffff;
+
+/* Common css */
 * {
   box-sizing: border-box;
   margin: 0;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.active {
+  background-color: $highlight-dark;
+  box-shadow: 0 0 2px black;
+  color: $white-color;
+  opacity: 1;
+}
+
+.sr-only {
+  display: none;
+}
+
+/* Other Imports */
+@import "./layout";
+@import "./preferences";
+@import "./reporting";

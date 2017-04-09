@@ -2,43 +2,64 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Boneless | Preferences</title>
+  <title>Boneless | Page</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="../styles/css/app.css">
 </head>
 <body>
-  <header class="app-header" role="app-header">
+  <header id="app-header" role="app-header">
     <nav>
+      <a href="">
+        <div class="mobile-nav">
+          <hr/>
+          <hr/>
+          <hr/>
+        </div>
+      </a>
       
     </nav>
     <div class="brand-logo">
-      
+      Boneless
     </div>
     <div class="access-control">
       
     </div>
   </header>
 
-  <main>
-    <aside role="navigation">
-      <ul>
+  <main id="app-body">
+    <aside id="side-nav" role="navigation">
+      <ul class="nav-group">
         <li>
-          Preferences
+          <a href="preferences.html">
+            <div class="nav-link">
+              <i class="fa fa-cogs" aria-hidden="true"></i>
+              Preferences
+            </div>
+          </a>
         </li>
         <li>
-          Reporting
+          <a href="reporting.html">
+            <div class="nav-link">
+              <i class="fa fa-pie-chart" aria-hidden="true"></i>
+              Reporting
+            </div>
+          </a>
         </li>
       </ul>
     </aside>
 
-    <section class="content-area" role="content-area">
+    <section id="content-area" role="content-area">
       <header class="content-header">
-        
       </header>
+
+      <section class="content-body">
+        
+      </section>
 
     </section>
   </main>
 
-  <footer>
+  <footer id="app-footer">
     
   </footer>
 </body>

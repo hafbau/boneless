@@ -1,0 +1,54 @@
+.form-group {
+  padding: $one-space / 2 0;
+}
+
+.line-group {
+  display: flex;
+  flex-wrap: wrap;
+
+  input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid $line-color;
+    flex: 1;
+    font-size: $one-rem * 1.5;
+    padding: $one-space / 2;
+    transition: all 0.3s ease;
+
+    &:active,
+    &:focus {
+      outline: none;
+      border-bottom: 2px solid $brand-color;
+    }
+  }
+}
+
+@media (min-width: 561px) {
+  .line-group {
+    flex-wrap: nowrap;
+    padding: $one-space / 2 0;
+
+    input {
+      width: 50%;
+    }
+
+    .spacer {
+      flex: none;
+      width: $one-space;
+    }
+  }
+}
+
+.btn-save {
+  background-color: $brand-color;
+  border: none;
+  font-size: $one-rem * 1.5;
+  padding: $one-space / 2 $one-space;
+  outline: none;
+  transition: all 0.4s ease;
+
+  &:hover {
+    background-color: $highlight-dark;
+    color: $white-color;
+  }
+}
